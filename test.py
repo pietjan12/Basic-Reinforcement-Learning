@@ -11,4 +11,7 @@ obs = env.reset()
 agent = agent.Agent(model)
 
 #train agent
+rewards_history = agent.train(env)
+print("Finished training, testing...")
+#test fully trained agent
 print("%d out of 200" % agent.test(env)) # score out of 200
