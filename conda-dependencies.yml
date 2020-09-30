@@ -1,0 +1,10 @@
+name: yolov4-gpu
+
+dependencies:
+  - python==3.8.5
+  - pip
+  - cudnn=7.6.5=cuda10.1_0
+  - cudatoolkit==10.1.243
+  - pip:
+    - tensorflow
+    - gym
